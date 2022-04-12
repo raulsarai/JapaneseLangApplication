@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.japaneselangapplication.fragmentView.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_hiragana"
+        android:name="br.com.japaneselangapplication.fragmentView.HiraganaFragment"
+        android:label="@string/menu_hiragana"
+        tools:layout="@layout/fragment_hiragana" />
+
+    <fragment
+        android:id="@+id/nav_katakana"
+        android:name="br.com.japaneselangapplication.fragmentView.KatakanaFragment"
+        android:label="@string/menu_katakana"
+        tools:layout="@layout/fragment_katakana" />
+
+    <fragment
+        android:id="@+id/nav_kanji"
+        android:name="br.com.japaneselangapplication.fragmentView.KanjiFragment"
+        android:label="@string/menu_kanji"
+        tools:layout="@layout/fragment_kanji" />
+
+    <fragment
+        android:id="@+id/nav_number"
+        android:name="br.com.japaneselangapplication.fragmentView.NumberFragment"
+        android:label="@string/menu_number"
+        tools:layout="@layout/fragment_number" />
+
+    <fragment
+        android:id="@+id/nav_greetings"
+        android:name="br.com.japaneselangapplication.fragmentView.GreetingsFragment"
+        android:label="@string/menu_greetings"
+        tools:layout="@layout/fragment_greetings" />
+
+
+</navigation>

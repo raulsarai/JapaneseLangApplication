@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Japa Lang</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aprenda Japa</string>
+    <string name="nav_header_subtitle">japa-lang@nihongo.com.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_hiragana">HIRAGANA</string>
+    <string name="menu_katakana">KATAKANA</string>
+    <string name="menu_kanji">KANJI</string>
+    <string name="menu_number">NUMERAL</string>
+    <string name="menu_greetings">CUMPRIMENTOS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

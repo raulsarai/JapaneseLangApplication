@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hiragana"
+            android:icon="@drawable/a_hiragana"
+            android:title="@string/menu_hiragana" />
+        <item
+            android:id="@+id/nav_katakana"
+            android:icon="@drawable/ka_katakana"
+            android:title="@string/menu_katakana" />
+        <item
+            android:id="@+id/nav_kanji"
+            android:icon="@drawable/amor"
+            android:title="@string/menu_kanji" />
+        <item
+            android:id="@+id/nav_number"
+            android:icon="@drawable/ni_number"
+            android:title="@string/menu_number" />
+        <item
+            android:id="@+id/nav_greetings"
+            android:icon="@drawable/msn"
+            android:title="@string/menu_greetings" />
+    </group>
+</menu>

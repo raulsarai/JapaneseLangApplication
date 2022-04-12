@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentView.HiraganaFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:id="@+id/frag_hiragana"
+            android:layout_height="match_parent"
+            tools:context=".View.HiraganaFragment">
+
+            <ImageView
+                android:id="@+id/buttonVolgalsHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonSaHiragana"
+                app:layout_constraintEnd_toStartOf="@+id/buttonKaHiragana"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/vogais" />
+
+            <ImageView
+                android:id="@+id/buttonSaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonNaHiragana"
+                app:layout_constraintEnd_toStartOf="@+id/buttonTaHiragana"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonVolgalsHiragana"
+                android:src="@drawable/sa_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonNaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonMaHiragana"
+                app:layout_constraintEnd_toStartOf="@+id/buttonHaHiragana"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonSaHiragana"
+                android:src="@drawable/na_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonHaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonYaHiragana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonNaHiragana"
+                app:layout_constraintTop_toBottomOf="@+id/buttonTaHiragana"
+                android:src="@drawable/ha_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonMaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonRaHiragana"
+                app:layout_constraintEnd_toStartOf="@+id/buttonYaHiragana"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonNaHiragana"
+                android:src="@drawable/ma_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonYaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonWaHiragana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonMaHiragana"
+                app:layout_constraintTop_toBottomOf="@+id/buttonHaHiragana"
+                android:src="@drawable/ya_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonRaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonNHiragana"
+                app:layout_constraintEnd_toStartOf="@+id/buttonWaHiragana"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonMaHiragana"
+                android:src="@drawable/ra_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonWaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonNHiragana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonRaHiragana"
+                app:layout_constraintTop_toBottomOf="@+id/buttonYaHiragana"
+                android:src="@drawable/wa_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonNHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/n_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonKaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonTaHiragana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonVolgalsHiragana"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/ka_hiragana" />
+
+            <ImageView
+                android:id="@+id/buttonTaHiragana"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/buttonHaHiragana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/buttonSaHiragana"
+                app:layout_constraintTop_toBottomOf="@+id/buttonKaHiragana"
+                android:src="@drawable/ta_hiragana" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</FrameLayout>
