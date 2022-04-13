@@ -39,6 +39,11 @@
         android:name="br.com.japaneselangapplication.fragmentView.GreetingsFragment"
         android:label="@string/menu_greetings"
         tools:layout="@layout/fragment_greetings" />
+    <fragment
+        android:id="@+id/nav_name_translate"
+        android:name="br.com.japaneselangapplication.fragmentView.NameTranslationFragment"
+        android:label="@string/menu_name_translate"
+        tools:layout="@layout/fragment_name_translation" />
 
 
 </navigation>

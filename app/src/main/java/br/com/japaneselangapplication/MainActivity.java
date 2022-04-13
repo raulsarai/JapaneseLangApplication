@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 R.id.nav_katakana,
                 R.id.nav_kanji,
                 R.id.nav_number,
-                R.id.nav_greetings)
+                R.id.nav_greetings,
+                R.id.nav_name_translate)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);

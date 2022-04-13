@@ -6,23 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_hiragana"
-            android:icon="@drawable/a_hiragana"
+            android:icon="@drawable/ic_a_hiragana"
             android:title="@string/menu_hiragana" />
         <item
             android:id="@+id/nav_katakana"
-            android:icon="@drawable/ka_katakana"
+            android:icon="@drawable/ic_ka_katakana"
             android:title="@string/menu_katakana" />
         <item
             android:id="@+id/nav_kanji"
-            android:icon="@drawable/amor"
+            android:icon="@drawable/ic_ai"
             android:title="@string/menu_kanji" />
         <item
             android:id="@+id/nav_number"
-            android:icon="@drawable/ni_number"
+            android:icon="@drawable/ic_ni_number"
             android:title="@string/menu_number" />
         <item
             android:id="@+id/nav_greetings"
-            android:icon="@drawable/msn"
+            android:icon="@drawable/ic_msn"
             android:title="@string/menu_greetings" />
+        <item
+            android:id="@+id/nav_name_translate"
+            android:icon="@drawable/ic_translate"
+            android:title="@string/menu_name_translate" />
     </group>
 </menu>

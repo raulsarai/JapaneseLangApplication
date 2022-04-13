@@ -5,16 +5,20 @@
       <map>
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/drawable/side_nav_bar.xml" value="0.313" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/activity_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_greetings.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_hiragana.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_hiragana_vogals.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_hiragana.xml" value="0.33" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_hiragana_vogals.xml" value="0.33" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_kanji.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_katakana.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_name_translation.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_number.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_number2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/fragment_tab.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/raulm/AndroidStudioProjects/JapaneseLangApplication/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
       </map>
